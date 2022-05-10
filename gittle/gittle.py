@@ -8,6 +8,7 @@ import logging
 from hashlib import sha1
 from shutil import rmtree
 from functools import partial, wraps
+from urllib.parse import urlparse
 
 # Dulwich imports
 from dulwich.repo import Repo as DulwichRepo
